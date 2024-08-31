@@ -52,7 +52,7 @@ services:
     networks:
       - webapp
     ports:
-      - 6389:6379
+      - 6381:6379
 
   docker-provider:
     image: ghcr.io/triggerdotdev/provider/docker:v3
